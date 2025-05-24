@@ -3,13 +3,13 @@
   padding: 0 15px;
   margin: 0 auto;
 }
-body {
-  background-color: #012d63;
-}
 header {
   background-color: #012d63;
   padding-top: 16px;
   padding-bottom: 14px;
+}
+.hero{
+  background-color: #012d63;
 }
 .hero-div {
   display: flex;
@@ -49,7 +49,8 @@ header {
   line-height: 100%;
 }
 .star {
-  background-image: url(../images/font-star.png);
+  background-color: #012d63;
+  background-color: #012d63;  background-image: url(../images/font-star.png);
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 94px;
@@ -97,6 +98,7 @@ header {
   padding: 20px 61px 19px;
 }
 .info {
+  background-color: #012d63;
   background-image: url(../images/Group81\(1\).png);
   background-position: center;
   background-repeat: no-repeat;
@@ -118,6 +120,7 @@ header {
   color: #ffffff;
 }
 .villaines {
+  background-color: #012d63;
   background-image: url(../images/Group61\(1\).png);
   background-position: center;
   background-repeat: no-repeat;
@@ -136,9 +139,7 @@ header {
     #9a76f9 62.5%,
     #cc5ec2 100%
   );
-  box-shadow: 0px 30px 0px -13px #533978;
-
-  box-shadow: 0px 14px 0px -5px #7b54b2;
+  box-shadow: 0px 14px 0px -5px #7b54b2,0px 30px 0px -13px #533978;
   border-radius: 15px;
 }
 .villaines-item:nth-child(2) {
@@ -149,9 +150,7 @@ header {
     #ce3aff 62.84%,
     #8961ff 100%
   );
-  box-shadow: 0px 30px 0px -13px #61337c;
-
-  box-shadow: 0px 14px 0px -5px #9159b1;
+  box-shadow: 0px 14px 0px -5px #9159b1,0px 30px 0px -13px #61337c;
   border-radius: 15px;
 }
 .villaines-item:nth-child(3) {
@@ -163,9 +162,8 @@ header {
     #ff5489 100%
   );
   border-radius: 15px;
-  box-shadow: 0px 30px 0px -13px #732f26;
 
-  box-shadow: 0px 14px 0px -5px #b95a4c;
+  box-shadow: 0px 14px 0px -5px #b95a4c,0px 30px 0px -13px #732f26;
 }
 .villaines-h2 {
   font-family: "Playfair Display";
@@ -225,6 +223,7 @@ header {
   justify-content: space-between;
 }
 .order {
+  background-color: #012d63;
   padding-top: 20px;
   padding-bottom: 37px;
   background-image: url(../images/Group21\(1\).png);
@@ -250,21 +249,14 @@ padding: 11px 417px 11px 24px;
 border-radius: 50px ;
 margin: 0PX auto 19px;
 border: 0px;
+
 }
 .input:nth-child(1){
   margin-top: 33px ;
 }
-.input:hover,
-.input:focus{
-  font-family: "Roboto";
-font-weight: 400;
-font-size: 28px;
-line-height: 100%;
-color: #959595;
-padding:12px 460px 13px 25px;
 
-}
 .order-button{
+  border-color: transparent;
   font-family: "Roboto";
   display: block;
 font-weight: 400;
@@ -274,11 +266,12 @@ color: #FFFFFF;
 background-color: #8E32C6;
 padding:20px 49px ;
 border-radius: 16px;
-border: 0px;
 margin:0 auto ;
 }
-footer{
-  color:  #021635;
+.footer{
+  padding-top:45px ;
+  padding-bottom: 50px ;
+background-color:  #021635;
   
 }
 .footer-list{
