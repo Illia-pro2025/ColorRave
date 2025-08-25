@@ -1,0 +1,51 @@
+.hero {
+  background-color: #012d63;
+  background-image: url(../../images/hero__fon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 94px;
+  padding-bottom: 183px;
+
+  &__title {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 144px;
+    line-height: 100%;
+    color: #ffffff;
+  }
+  &__pretitle {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 100%;
+    color: #ffffff;
+  }
+  &__name {
+    font-family: "PT Serif";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    color: #ffffff;
+  }
+  &__text {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #ffffff;
+    margin-top: 12px;
+    margin-bottom: 41px;
+    margin-right: 600px;
+  }
+  &__button {
+    border-radius: 10px;
+    background-color: #8e32c6;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    padding: 20px 61px 19px;
+    border: transparent;
+  }
+}

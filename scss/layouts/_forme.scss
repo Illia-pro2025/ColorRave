@@ -1,0 +1,44 @@
+.forme {
+  background-color: #012d63;
+  padding-top: 20px;
+  padding-bottom: 37px;
+  background-image: url(../../images/forme__fon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  &__title {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    color: #ffffff;
+    text-align: center;
+  }
+  &__input {
+    font-family: "Roboto";
+    font-weight: 400;
+    display: block;
+    font-size: 24px;
+    line-height: 100%;
+    color: #959595;
+    padding: 11px 417px 11px 24px;
+    border-radius: 50px;
+    margin: 0px auto 19px;
+    border: 0px;
+    &:nth-child(1) {
+      margin-top: 33px;
+    }
+  }
+  &__button {
+    border-color: transparent;
+    font-family: "Roboto";
+    display: block;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #ffffff;
+    background-color: #8e32c6;
+    padding: 20px 49px;
+    border-radius: 16px;
+    margin: 0 auto;
+  }
+}
