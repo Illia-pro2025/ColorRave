@@ -78,7 +78,7 @@ ul {
 
 .hero {
   background-color: #012d63;
-  background-image: url(../../images/hero__fon.png);
+  background-image: url(./../images/hero__fon.png);
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 94px;
@@ -129,7 +129,7 @@ ul {
 
 .gallery {
   background-color: #012d63;
-  background-image: url(../../images/gallery__fon.png);
+  background-image: url(./../images/gallery__fon.png);
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 105px;
@@ -155,7 +155,7 @@ ul {
 
 .comment {
   background-color: #012d63;
-  background-image: url(../../images/comment__fon.png);
+  background-image: url(./../images/comment__fon.png);
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 24px;
@@ -253,7 +253,7 @@ ul {
   background-color: #012d63;
   padding-top: 20px;
   padding-bottom: 37px;
-  background-image: url(../../images/forme__fon.png);
+  background-image: url(./../images/forme__fon.png);
   background-position: center;
   background-repeat: no-repeat;
 }
